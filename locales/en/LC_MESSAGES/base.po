@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+
+
+
+msgid "Welcome to Auto EDA!"
+msgstr "Welcome to Auto EDA!"
+
+msgid "This is an Auto EDA Website developed by Yerim Choi and Yujin Min"
+msgstr "This is an Auto EDA Website developed by Yerim Choi and Yujin Min"
+
+msgid "You can find the source code [here](https://github.com/yrc00/auto-eda/tree/main)"
+msgstr "You can find the source code [here](https://github.com/yrc00/auto-eda/tree/main)"
+
+msgid "### **Instructions**"
+msgstr "### **Instructions**"
+
+msgid "- To use Auto EDA, upload your csv file to the Data Page."
+msgstr "- To use Auto EDA, upload your csv file to the Data Page."
+
+msgid "- Navigate to different pages using the Sidebar."
+msgstr "- Navigate to different pages using the Sidebar."
+
+msgid "- View Data, Overview, Visualization, Correlation, Modeling, and Chatbot pages."
+msgstr "- View Data, Overview, Visualization, Correlation, Modeling, and Chatbot pages."
+
+msgid "- Use Chatbot to ask questions and gain insights about your data."
+msgstr "- Use Chatbot to ask questions and gain insights about your data."
+
+msgid "**Note**: This is a demo website so it may not work as expected."
+msgstr "**Note**: This is a demo website so it may not work as expected."
+
+msgid "### **About Pages**"
+msgstr "### **About Pages**"
+
+msgid "- **Data**: Upload csv file and set up dataset."
+msgstr "- **Data**: Upload csv file and set up dataset."
+
+msgid "- **Overview**: View the dataset and its information."
+msgstr "- **Overview**: View the dataset and its information."
+
+msgid "- **Visualization**: Visualize the dataset using a variety of plots."
+msgstr "- **Visualization**: Visualize the dataset using a variety of plots."
+
+msgid "- **Correlation**: Check correlation between different columns."
+msgstr "- **Correlation**: Check correlation between different columns."
+
+msgid "- **Modeling**: Perform supervised and unsupervised modeling."
+msgstr "- **Modeling**: Perform supervised and unsupervised modeling."
+
+msgid "- **Chatbot**: Ask questions and gain insights about the dataset."
+msgstr "- **Chatbot**: Ask questions and gain insights about the dataset."
+
+
+
+
+msgid "Select the target column"
+msgstr "Select the target column"
+
+msgid "Select the columns want to analyze"
+msgstr "Select the columns want to analyze"
+
+msgid "Double click the cell to edit data type."
+msgstr "Double click the cell to edit data type."
+
+msgid "Please Upload a CSV File to Edit."
+msgstr "Please Upload a CSV File to Edit."
+
+
+
+
+msgid "Please upload a CSV file to view this page."
+msgstr "Please upload a CSV file to view this page."
+
+
+
+
+msgid "No Categorical Columns"
+msgstr "No Categorical Columns"
+
+msgid "No Boolean Columns"
+msgstr "No Boolean Columns"
+
+msgid "No Discrete Columns"
+msgstr "No Discrete Columns"
+
+msgid "No Continuous Columns"
+msgstr "No Continuous Columns"
+
+msgid "No Time Series Columns"
+msgstr "No Time Series Columns"
+
+msgid "No String Columns"
+msgstr "No String Columns"

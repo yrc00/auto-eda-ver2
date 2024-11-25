@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ko\n"
+
+
+
+
+msgid "Welcome to Auto EDA!"
+msgstr "Auto EDA에 오신 것을 환영합니다!"
+
+msgid "This is an Auto EDA Website developed by Yerim Choi and Yujin Min"
+msgstr "최예림, 민유진이 개발한 Auto EDA webiste입니다."
+
+msgid "You can find the source code [here](https://github.com/yrc00/auto-eda/tree/main)"
+msgstr "[여기](https://github.com/yrc00/auto-eda/tree/main)에서 소스 코드를 찾을 수 있습니다."
+
+msgid "### **Instructions**"
+msgstr "### **Instructions**"
+
+msgid "- To use Auto EDA, upload your csv file to the Data Page."
+msgstr "- Auto EDA 이용을 위해 Data 페이지에 csv file을 업로드하세요."
+
+msgid "- Navigate to different pages using the Sidebar."
+msgstr "- 사이드바에서 다른 페이지로 이동이 가능합니다."
+
+msgid "- View Data, Overview, Visualization, Correlation, Modeling, and Chatbot pages."
+msgstr "- Data, Overview, Visualization, Correlation, Modeling, and Chatbot 페이지들이 존재합니다. "
+
+msgid "- Use Chatbot to ask questions and gain insights about your data."
+msgstr "- Chatbot을 통해 질문하고 데이터에 대한 인사이트를 얻으세요."
+
+msgid "**Note**: This is a demo website so it may not work as expected."
+msgstr "**Note**: 현재 화면은 데모 웹사이트로 제대로 작동하지 않을 수 있습니다."
+
+msgid "### **About Pages**"
+msgstr "### **About Pages**"
+
+msgid "- **Data**: Upload csv file and set up dataset."
+msgstr "- **Data**: csv 파일 업로드하고 데이터 세트 수정이 가능합니다."
+
+msgid "- **Overview**: View the dataset and its information."
+msgstr "- **Overview**: 데이터 세트의 정보를 제공합니다."
+
+msgid "- **Visualization**: Visualize the dataset using a variety of plots."
+msgstr "- **Visualization**: 다양한 플롯을 통해 데이터 세트의 시각화를 제공합니다."
+
+msgid "- **Correlation**: Check correlation between different columns."
+msgstr "- **Correlation**: 서로 다른 변수들 간의 상관관계를 제공합니다."
+
+msgid "- **Modeling**: Perform supervised and unsupervised modeling."
+msgstr "- **Modeling**: 지도 및 비지도 학습 모델링을 제공합니다. "
+
+msgid "- **Chatbot**: Ask questions and gain insights about the dataset."
+msgstr "- **Chatbot**: 질문을 통해 데이터 세트의 인사이트를 얻을 수 있습니다."
+
+
+
+
+msgid "Select the target column"
+msgstr "타겟 컬럼을 선택하세요."
+
+msgid "Select the columns want to analyze"
+msgstr "분석할 컬럼들을 선택하세요"
+
+msgid "Double click the cell to edit data type."
+msgstr "데이터 타입을 편집하려면 더블클릭하세요."
+
+msgid "Please Upload a CSV File to Edit."
+msgstr "편집을 위해 CSV 파일을 업로드해주세요."
+
+
+
+
+msgid "Please upload a CSV file to view this page."
+msgstr "이 페이지를 보려면 CSV파일을 업로드해주세요."
+
+
+
+
+msgid "No Categorical Columns"
+msgstr "범주형 변수가 없습니다."
+
+msgid "No Boolean Columns"
+msgstr "불리언 변수가 없습니다."
+
+msgid "No Discrete Columns"
+msgstr "이산형 변수가 없습니다."
+
+msgid "No Continuous Columns"
+msgstr "연속형 변수가 없습니다."
+
+msgid "No Time Series Columns"
+msgstr "시계열 변수가 없습니다."
+
+msgid "No String Columns"
+msgstr "문자열 변수가 없습니다."
