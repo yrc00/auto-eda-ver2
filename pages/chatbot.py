@@ -37,7 +37,9 @@ st.session_state.current_page = "Chatbot"
 #################### get API key from sidebar ####################
 
 # huggingface API token
-api_key = st.session_state.get("openai_api_key", "")
+if "llm_model" in st.session_state:
+    if st.session_state.llm_model in ["gpt-3.5-turbo", "gpt-4", "gpt-4o", "gpt-4o-mini"]:
+        api_key = st.session_state.get("openai_api_key", "")
 
 ############################ Streamlit session state initialization ############################
 
@@ -185,7 +187,7 @@ def create_agent(dataframe, selected_model="gpt-4o", language="en"):
         language = lan_map[language]
 
     return create_pandas_dataframe_agent(
-        ChatOpenAI(model=selected_model, temperature=0, openai_api_key=openai_api_key),
+        ChatOpenAI(model=selected_model, temperature=0, openai_api_key=api_key),
         dataframe,
         verbose=False,
         agent_type="tool-calling",

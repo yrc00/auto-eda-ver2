@@ -476,27 +476,26 @@ def scatter(df):
         else:
             response = scatter_slm(df, x, y, st.session_state.llm_model)
 
-            if st.session_state.language != "en":
-                response = google_translate(response, "ko")
+        if st.session_state.language != "en":
+            response = google_translate(response, "ko")
 
-            txt = st.text_area("LLM response", response, height=500)
-            st.write(f"Response: {len(txt)} characters.")
+        txt = st.text_area("LLM response", response, height=500)
+        st.write(f"Response: {len(txt)} characters.")
 
 ##################################### Correlation Heatmap ######################################
 
 # normality test
 def correlation_normality(df):
-    st.session_state.normality_df = result_df
-    if "normality_df" in st.session_state:
+    if "normaliy_df" in st.session_state:
         result_df = st.session_state.normality_df
     else:
         result_df = normality_test(df)
-
+    
     # highlight p-value
     def highlight_p_value(val):
         if val is None:  # None 값 처리 추가
             return ''
-        color = 'lightyellow' if val < alpha else ''
+        color = 'lightyellow' if val < 0.05 else ''
         return f'background-color: {color}'
 
     # show result
@@ -686,8 +685,9 @@ def heatmap(df):
     st.markdown("### Correlation Heatmap")
     with st.container(border=True):
         st.markdown("**Normality Test**")
-        normality_test(df)
-    
+        correlation_normality(df)
+
+
     with st.container(border=True):
         st.markdown("**Correlation Heatmap**")
         tab1, tab2, tab3 = st.tabs(['Pearson', 'Spearman', 'Kendall'])
